@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+	.shopping-cart {
+  width: 750px;
+  height: 423px;
+  margin: 80px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+ 
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  height: 60px;
+  border-bottom: 1px solid #E1E8EE;
+  padding: 20px 30px;
+  color: #5E6977;
+  font-size: 18px;
+  font-weight: 400;
+}
+ 
+.item {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+}
+ 
+.item:nth-child(3) {
+  border-top:  1px solid #E1E8EE;
+  border-bottom:  1px solid #E1E8EE;
+}
+
+</style>
+</head>
+<body>
+	<div class="shopping-cart">
+  <!-- Title -->
+  <div class="title">
+    Shopping Cart
+  </div>
+ 
+  <!-- Product #1 -->
+  <div class="item">
+    <div class="buttons">
+      <span class="delete-btn"></span>
+      <span class="like-btn"></span>
+    </div>
+ 
+    <div class="image">
+      <img src="images/img-1.jpg" alt="" height="25" width="25"/>
+    </div>
+ 
+    <div class="description">
+      <span>Dining</span>
+    </div>
+ 
+    <div class="quantity">
+      <button class="plus-btn" type="button" name="button">
+        <img src="plus.svg" alt="" />
+      </button>
+      <input type="text" name="name" value="1">
+      <button class="minus-btn" type="button" name="button">
+        <img src="minus.svg" alt="" />
+      </button>
+    </div>
+ 
+    <div class="total-price">5549</div>
+  </div>
+ 
+  <!-- Product #2 -->
+  <div class="item">
+    <div class="buttons">
+      <span class="delete-btn"></span>
+      <span class="like-btn"></span>
+    </div>
+ 
+    <div class="image">
+      <img src="images/img-2.jpg" alt="" height="25" width="25"/>
+    </div>
+ 
+    <div class="description">
+      <span>Office</span>
+    </div>
+ 
+    <div class="quantity">
+      <button class="plus-btn" type="button" name="button">
+        <img src="plus.svg" alt="" />
+      </button>
+      <input type="text" name="name" value="1">
+      <button class="minus-btn" type="button" name="button">
+        <img src="minus.svg" alt="" />
+      </button>
+    </div>
+ 
+    <div class="total-price">8870</div>
+  </div>
+ 
+  <!-- Product #3 -->
+  <div class="item">
+    <div class="buttons">
+      <span class="delete-btn"></span>
+      <span class="like-btn"></span>
+    </div>
+ 
+    <div class="image">
+      <img src="images/img-3.jpg" alt="" height="25" width="25"/>
+    </div>
+ 
+    <div class="description">
+      <span>Dining</span>
+    </div>
+ 
+    <div class="quantity">
+      <button class="plus-btn" type="button" name="button">
+        <img src="plus.jpg" alt="" height="15" width="15"/>
+      </button>
+      <input type="text" name="name" value="1">
+      <button class="minus-btn" type="button" name="button">
+        <img src="minus.jpg" alt="" height="15" width="15" />
+      </button>
+    </div>
+ 
+    <div class="total-price">4349</div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Order Items</title>
+</head>
+<body>
+	<h1>Shopping Cart</h1>
+  <ul class="errors">
+    <li></li>
+  </ul>
+
+  <a href="css/order.css" class="continue-shopping">Continue Shopping</a>
+  <a href="css/order.css" class="checkout-button">Checkout</a>
+  <table cellspacing="0" class="shopping-cart">
+    <thead>
+      <tr class="headings">
+        <th class="link">&nbsp;</td>
+        <th class="product">Item</td>
+        <th class="price">Price</td>
+        <th class="quantity">Quantity</td>
+        <th class="price">Total</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr> 
+        <td class="link"><label>remove</label></td>
+        <td class="product">
+          <div class="product-img"><a href="{#product.url}"></a></div>
+          <div class="product-name">
+            <a href="{#product.url}"></a>
+              <br />
+        
+          </div>
+        </td>
+        <td class="price">
+          
+        </td>
+        <td class="quantity">
+          
+        </td>
+        <td class="price"></td>
+      </tr>
+      <tr>
+        <td class="quantity-span" colspan="4">Subtotal</td>
+        <td class="price"></td>
+      </tr>
+     
+        <tr>
+          <td class="quantity-span" colspan="4">)</td>
+          <td class="price"></td>
+        </tr>
+ 
+      <tr class="totals">
+        <td colspan="2"><input type="submit" name="submit" value="Update cart" /></td>
+        <td class="quantity-span" colspan="2">Total</td>
+        <td class="price"></td>
+      </tr> 
+    </tbody>
+  </table>
+
+  <div class="coupon">
+    Have a coupon? <input type="submit" value="Apply" />
+  </div>
+<div style="clear: both;"></div>
+<a href="{#cart.urls.continueShopping}" class="continue-shopping">Continue Shopping</a>
+<a href="{#cart.urls.checkout}" class="checkout-button">Checkout</a>
+</body>
+</html>
